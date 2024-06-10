@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "Antibiotic Therapy: Discovery, Development, and Rationale Clinical Use",
     "section": "",
-    "text": "Preface\nThis is the website for the 2nd edition of “R for Data Science”. This book will teach you how to do data science with R: You’ll learn how to get your data into R, get it into the most useful structure, transform it and visualize.\nIn this book, you will find a practicum of skills for data science. Just as a chemist learns how to clean test tubes and stock a lab, you’ll learn how to clean data and draw plots—and many other things besides. These are the skills that allow data science to happen, and here you will find the best practices for doing each of these things with R. You’ll learn how to use the grammar of graphics, literate programming, and reproducible research to save time. You’ll also learn how to manage cognitive resources to facilitate discoveries when wrangling, visualizing, and exploring data.\nThis website is and will always be free, licensed under the CC BY-NC-ND 3.0 License. If you’d like a physical copy of the book, you can order it on Amazon. If you appreciate reading the book for free and would like to give back, please make a donation to Kākāpō Recovery: the kākāpō (which appears on the cover of R4DS) is a critically endangered parrot native to New Zealand; there are only 248 left.\nIf you speak another language, you might be interested in the freely available translations of the 1st edition:\nYou can find suggested answers to exercises in the book at https://mine-cetinkaya-rundel.github.io/r4ds-solutions.\nPlease note that R4DS uses a Contributor Code of Conduct. By contributing to this book, you agree to abide by its terms.",
+    "text": "1 Preface\nThis is the website for the 2nd edition of “R for Data Science”. This book will teach you how to do data science with R: You’ll learn how to get your data into R, get it into the most useful structure, transform it and visualize.\nIn this book, you will find a practicum of skills for data science. Just as a chemist learns how to clean test tubes and stock a lab, you’ll learn how to clean data and draw plots—and many other things besides. These are the skills that allow data science to happen, and here you will find the best practices for doing each of these things with R. You’ll learn how to use the grammar of graphics, literate programming, and reproducible research to save time. You’ll also learn how to manage cognitive resources to facilitate discoveries when wrangling, visualizing, and exploring data.\nThis website is and will always be free, licensed under the CC BY-NC-ND 3.0 License. If you’d like a physical copy of the book, you can order it on Amazon. If you appreciate reading the book for free and would like to give back, please make a donation to Kākāpō Recovery: the kākāpō (which appears on the cover of R4DS) is a critically endangered parrot native to New Zealand; there are only 248 left.\nIf you speak another language, you might be interested in the freely available translations of the 1st edition:\nYou can find suggested answers to exercises in the book at https://mine-cetinkaya-rundel.github.io/r4ds-solutions.\nPlease note that R4DS uses a Contributor Code of Conduct. By contributing to this book, you agree to abide by its terms.",
     "crumbs": [
-      "Preface"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
     ]
   },
   {
@@ -46,27 +46,67 @@
     "section": "Acknowledgements",
     "text": "Acknowledgements\nR4DS is hosted by https://www.netlify.com as part of their support of open source software and communities.",
     "crumbs": [
-      "Preface"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
     ]
   },
   {
     "objectID": "origin.html",
     "href": "origin.html",
-    "title": "2  Origins of antibiotic therapy",
+    "title": "3  Origins of antibiotic therapy",
     "section": "",
-    "text": "Preface\nThis is the website for the 2nd edition of “R for Data Science”. This book will teach you how to do data science with R: You’ll learn how to get your data into R, get it into the most useful structure, transform it and visualize.\nThis website is and will always be free, licensed under the CC BY-NC-ND 3.0 License. If you’d like a physical copy of the book, you can order it on Amazon. If you appreciate reading the book for free and would like to give back, please make a donation to Kākāpō Recovery: the kākāpō (which appears on the cover of R4DS) is a critically endangered parrot native to New Zealand; there are only 248 left.\nIf you speak another language, you might be interested in the freely available translations of the 1st edition:\nYou can find suggested answers to exercises in the book at https://mine-cetinkaya-rundel.github.io/r4ds-solutions.\nPlease note that R4DS uses a Contributor Code of Conduct. By contributing to this book, you agree to abide by its terms.",
+    "text": "3.1 Antibiotic prehistory\nThe origin of the modern antibiotic therapy is often linked to Paul Erlich’s discovery of arsphenamine (Salvarsan) in 1909 followed by Alexander Fleming’s discovery of penicillin in 1928.\nHowever, there is considerable evidence that naturally-available treatments, including herbs, honey and mouldy bread had been used for centuries as topical antimicrobial therapies in ancient Egypt, China, Serbia, Greece and Rome.1 Indeed, the benefits of using mould extracts were already well-documented by the herbalist and apothecary John Parkison in his book Theatrum botanicum. published in 1640.\nEven “modern” antibiotics may have been available in ancient times. Traces of tetracyclines have been detected in human skeletons recovered in Nubia from the time of Roman occupation of Egypt despite the fact that this class of antibiotics was not technically “discovered” in the modern era until 1945.2 Therefore the actual origin of antibiotics use remains a point for historical debate.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Origins of antibiotic therapy</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Origins of antibiotic therapy</span>"
     ]
   },
   {
     "objectID": "origin.html#acknowledgements",
     "href": "origin.html#acknowledgements",
-    "title": "2  Origins of antibiotic therapy",
+    "title": "3  Origins of antibiotic therapy",
     "section": "Acknowledgements",
     "text": "Acknowledgements\nR4DS is hosted by https://www.netlify.com as part of their support of open source software and communities.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Origins of antibiotic therapy</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Origins of antibiotic therapy</span>"
+    ]
+  },
+  {
+    "objectID": "origin.html#antibiotic-like-treatments-in-the-ancient-world",
+    "href": "origin.html#antibiotic-like-treatments-in-the-ancient-world",
+    "title": "3  Origins of antibiotic therapy",
+    "section": "",
+    "text": "Figure 3.1: John Parkinson (1567– 1650). The first person to document the use of moulds to treat infections.\n\n\n\n\n\n\nSpanish\nItalian\nTurkish",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Origins of antibiotic therapy</span>"
+    ]
+  },
+  {
+    "objectID": "origin.html#antibiotic-prehistory-treatments-in-the-ancient-world",
+    "href": "origin.html#antibiotic-prehistory-treatments-in-the-ancient-world",
+    "title": "3  Origins of antibiotic therapy",
+    "section": "",
+    "text": "Figure 3.1: John Parkinson (1567– 1650). The first person to document the use of moulds to treat infections.\n\n\n\n\n\n1. Gould, K. Antibiotics: From prehistory to the present day. Journal of Antimicrobial Chemotherapy 71, 572–575 (2016).",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Origins of antibiotic therapy</span>"
+    ]
+  },
+  {
+    "objectID": "origin.html#antibiotic-prehistory",
+    "href": "origin.html#antibiotic-prehistory",
+    "title": "3  Origins of antibiotic therapy",
+    "section": "",
+    "text": "Figure 3.1: John Parkinson (1567– 1650). The first person to document the use of mould extracts to treat infections. image source: Wikipedia.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Origins of antibiotic therapy</span>"
+    ]
+  },
+  {
+    "objectID": "origin.html#the-dawn-of-bacteriology",
+    "href": "origin.html#the-dawn-of-bacteriology",
+    "title": "3  Origins of antibiotic therapy",
+    "section": "3.2 The dawn of bacteriology",
+    "text": "3.2 The dawn of bacteriology\n\n\n\n\n1. Gould, K. Antibiotics: From prehistory to the present day. Journal of Antimicrobial Chemotherapy 71, 572–575 (2016).\n\n\n2. Bassett, E. J., Keith, M. S., Armelagos, G. J., Martin, D. L. & Villanueva, A. R. Tetracycline-Labeled Human Bone from Ancient Sudanese Nubia (A.D. 350). Science 209, 1532–1534 (1980).",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Origins of antibiotic therapy</span>"
     ]
   }
 ]

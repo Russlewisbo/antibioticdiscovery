@@ -11,10 +11,8 @@ book:
     - origin.qmd
     - summary.qmd
     - references.qmd
-reference-location: margin
-citation-location: margin
-
 bibliography: references.bib
+csl: nature.csl
 
 format:
   html:
