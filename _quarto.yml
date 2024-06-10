@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "Antibiotic Therapy: Discovery, Development, and Rationale Clinical Use"
+  author: "Russell E. Lewis"
+  date: "6/7/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - origin.qmd
+    - summary.qmd
+    - references.qmd
+reference-location: margin
+citation-location: margin
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
