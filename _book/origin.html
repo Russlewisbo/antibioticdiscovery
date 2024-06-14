@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.552">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -196,7 +196,9 @@ div.csl-indent {
 <section id="antibiotic-prehistory" class="level2 page-columns page-full" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="antibiotic-prehistory"><span class="header-section-number">3.1</span> Antibiotic prehistory</h2>
 <p>The origin of the <em>modern</em> <em>antibiotic therapy</em> is often linked to Paul Erlich’s discovery of arsphenamine (Salvarsan) in 1909 followed by Alexander Fleming’s discovery of penicillin in 1928.</p>
-<p>However, there is considerable evidence that naturally-available treatments, including herbs, honey and mouldy bread had been used for centuries as topical antimicrobial therapies in ancient Egypt, China, Serbia, Greece and Rome.<span class="citation" data-cites="gould2016"><sup><a href="references.html#ref-gould2016" role="doc-biblioref">1</a></sup></span> Indeed, the benefits of using mould extracts were already well-documented by the herbalist and apothecary John Parkison in his book <em>Theatrum botanicum.</em> published in 1640.</p>
+<p>However, there is considerable evidence that naturally-available treatments, including herbs, honey and mouldy bread had been used for centuries as topical antimicrobial therapies in ancient Egypt, China, Serbia, Greece and Rome.<span class="citation" data-cites="gould2016"><sup><a href="references.html#ref-gould2016" role="doc-biblioref">1</a></sup></span></p>
+<p>Even “modern” antibiotics may have been available in ancient times. Traces of tetracyclines have been detected in human skeletons recovered Sudanese Nubiansfrom the time of Roman occupation of Egypt despite the fact that this class of antibiotics was not technically “discovered” in the modern era until 1945.<span class="citation" data-cites="Bassett1980"><sup><a href="references.html#ref-Bassett1980" role="doc-biblioref">2</a></sup></span>Chemical analysis suggests they were ingesting the antibiotic tetracycline on a regular basis, likely from a special brew of beer<span class="citation" data-cites="nelson.etal_2010a"><sup><a href="references.html#ref-nelson.etal_2010a" role="doc-biblioref">3</a></sup></span>.</p>
+<p>The benefits of using mould extracts were already well-documented by the herbalist and apothecary John Parkison in his book <em>Theatrum botanicum.</em> published in 1640.</p>
 
 <div class="no-row-height column-margin column-container"><div class="">
 <div id="fig-Parkinson" class="quarto-figure quarto-figure-center quarto-float anchored">
@@ -209,8 +211,7 @@ Figure&nbsp;3.1: John Parkinson (1567– 1650). The first person to document the
 </figcaption>
 </figure>
 </div>
-</div></div><p>Even “modern” antibiotics may have been available in ancient times. Traces of tetracyclines have been detected in human skeletons recovered in Nubia from the time of Roman occupation of Egypt despite the fact that this class of antibiotics was not technically “discovered” in the modern era until 1945.<span class="citation" data-cites="Bassett1980"><sup><a href="references.html#ref-Bassett1980" role="doc-biblioref">2</a></sup></span> Therefore the actual origin of antibiotics use remains a point for historical debate.</p>
-</section>
+</div></div></section>
 <section id="the-dawn-of-bacteriology" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="the-dawn-of-bacteriology"><span class="header-section-number">3.2</span> The dawn of bacteriology</h2>
 
@@ -221,6 +222,9 @@ Figure&nbsp;3.1: John Parkinson (1567– 1650). The first person to document the
 </div>
 <div id="ref-Bassett1980" class="csl-entry" role="listitem">
 <div class="csl-left-margin">2. </div><div class="csl-right-inline">Bassett, E. J., Keith, M. S., Armelagos, G. J., Martin, D. L. &amp; Villanueva, A. R. <a href="https://doi.org/10.1126/science.7001623">Tetracycline-Labeled Human Bone from Ancient Sudanese Nubia (A.D. 350)</a>. <em>Science</em> <strong>209</strong>, 1532–1534 (1980).</div>
+</div>
+<div id="ref-nelson.etal_2010a" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Nelson, M. L., Dinardo, A., Hochberg, J. &amp; Armelagos, G. J. <a href="https://doi.org/10.1002/ajpa.21340">Brief communication: Mass spectroscopic characterization of tetracycline in the skeletal remains of an ancient population from sudanese nubia 350–550 CE</a>. <em>American Journal of Physical Anthropology</em> <strong>143</strong>, 151–154 (2010).</div>
 </div>
 </div>
 </section>
@@ -305,6 +309,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -339,7 +361,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -615,12 +641,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./intro.html" class="pagination-link  aria-label=" &lt;span="">
+      <a href="./intro.html" class="pagination-link" aria-label="Introduction">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./summary.html" class="pagination-link" aria-label="<span class='chapter-number'>4</span>&nbsp; <span class='chapter-title'>Summary</span>">
+      <a href="./summary.html" class="pagination-link" aria-label="Summary">
         <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Summary</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>

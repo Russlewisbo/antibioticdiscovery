@@ -12,21 +12,21 @@
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "1  Introduction",
+    "title": "2  Introduction",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n1 + 1\n\n[1] 2",
+    "text": "This is a book created from markdown and executable code.\nSee1 for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n1. Knuth, D. E. Literate programming. Comput. J. 27, 97–111 (1984).",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "3  Summary",
+    "title": "4  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {
@@ -34,7 +34,7 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "1. Knuth, D. E. Literate programming.\nComput. J. 27, 97–111 (1984).\n\n\n2. Gould, K. Antibiotics: From prehistory\nto the present day. Journal of Antimicrobial Chemotherapy\n71, 572–575 (2016).\n\n\n3. Bassett, E. J., Keith, M. S., Armelagos, G. J.,\nMartin, D. L. & Villanueva, A. R. Tetracycline-Labeled\nHuman Bone from Ancient Sudanese Nubia (A.D. 350). Science\n209, 1532–1534 (1980).",
     "crumbs": [
       "References"
     ]
@@ -54,7 +54,7 @@
     "href": "origin.html",
     "title": "3  Origins of antibiotic therapy",
     "section": "",
-    "text": "3.1 Antibiotic prehistory\nThe origin of the modern antibiotic therapy is often linked to Paul Erlich’s discovery of arsphenamine (Salvarsan) in 1909 followed by Alexander Fleming’s discovery of penicillin in 1928.\nHowever, there is considerable evidence that naturally-available treatments, including herbs, honey and mouldy bread had been used for centuries as topical antimicrobial therapies in ancient Egypt, China, Serbia, Greece and Rome.1 Indeed, the benefits of using mould extracts were already well-documented by the herbalist and apothecary John Parkison in his book Theatrum botanicum. published in 1640.\nEven “modern” antibiotics may have been available in ancient times. Traces of tetracyclines have been detected in human skeletons recovered in Nubia from the time of Roman occupation of Egypt despite the fact that this class of antibiotics was not technically “discovered” in the modern era until 1945.2 Therefore the actual origin of antibiotics use remains a point for historical debate.",
+    "text": "3.1 Antibiotic prehistory\nThe origin of the modern antibiotic therapy is often linked to Paul Erlich’s discovery of arsphenamine (Salvarsan) in 1909 followed by Alexander Fleming’s discovery of penicillin in 1928.\nHowever, there is considerable evidence that naturally-available treatments, including herbs, honey and mouldy bread had been used for centuries as topical antimicrobial therapies in ancient Egypt, China, Serbia, Greece and Rome.1\nEven “modern” antibiotics may have been available in ancient times. Traces of tetracyclines have been detected in human skeletons recovered Sudanese Nubiansfrom the time of Roman occupation of Egypt despite the fact that this class of antibiotics was not technically “discovered” in the modern era until 1945.2Chemical analysis suggests they were ingesting the antibiotic tetracycline on a regular basis, likely from a special brew of beer3.\nThe benefits of using mould extracts were already well-documented by the herbalist and apothecary John Parkison in his book Theatrum botanicum. published in 1640.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Origins of antibiotic therapy</span>"
     ]
@@ -104,7 +104,7 @@
     "href": "origin.html#the-dawn-of-bacteriology",
     "title": "3  Origins of antibiotic therapy",
     "section": "3.2 The dawn of bacteriology",
-    "text": "3.2 The dawn of bacteriology\n\n\n\n\n1. Gould, K. Antibiotics: From prehistory to the present day. Journal of Antimicrobial Chemotherapy 71, 572–575 (2016).\n\n\n2. Bassett, E. J., Keith, M. S., Armelagos, G. J., Martin, D. L. & Villanueva, A. R. Tetracycline-Labeled Human Bone from Ancient Sudanese Nubia (A.D. 350). Science 209, 1532–1534 (1980).",
+    "text": "3.2 The dawn of bacteriology\n\n\n\n\n1. Gould, K. Antibiotics: From prehistory to the present day. Journal of Antimicrobial Chemotherapy 71, 572–575 (2016).\n\n\n2. Bassett, E. J., Keith, M. S., Armelagos, G. J., Martin, D. L. & Villanueva, A. R. Tetracycline-Labeled Human Bone from Ancient Sudanese Nubia (A.D. 350). Science 209, 1532–1534 (1980).\n\n\n3. Nelson, M. L., Dinardo, A., Hochberg, J. & Armelagos, G. J. Brief communication: Mass spectroscopic characterization of tetracycline in the skeletal remains of an ancient population from sudanese nubia 350–550 CE. American Journal of Physical Anthropology 143, 151–154 (2010).",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Origins of antibiotic therapy</span>"
     ]
