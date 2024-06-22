@@ -6,13 +6,11 @@ bibliography: references.bib
 
 ## Antibiotic prehistory
 
-The origin of the *modern* *antibiotic therapy* is often linked to Paul Erlich's discovery of arsphenamine (Salvarsan) in 1909 followed by Alexander Fleming's discovery of penicillin in 1928.
+Many textbooks consider Paul Erlich's discovery of arsphenamine (Salvarsan) in 1909 followed by Alexander Fleming's discovery of penicillin in 1928 the beginning of the modern antibiotic era.
 
-However, there is considerable evidence that naturally-available treatments, including herbs, honey and mouldy bread had been used for centuries as topical antimicrobial therapies in ancient Egypt, China, Serbia, Greece and Rome.[@gould2016]
+However, naturally-available treatments, including herbs, honey and mouldy bread had been used for centuries as topical antimicrobial therapies in ancient Egypt, China, Serbia, Greece and Rome.[@gould2016] Tetracycline antibiotics have even ben detected in human skeletons of the Sudanese Nubians from the time of Roman occupation, despite the fact that this class of antibiotics was not technically "discovered" until 1945. [@Bassett1980] A chemical analysis of the skeletons subsequently confirmed that the ancient Nubians were likely exposed to "therapeutic" antibiotic concentrations from routine ingestion of special beer they produced that contained fermentation byproducts of *Actinomycetes* spp. [@nelson.etal_2010a]
 
-Even "modern" antibiotics may have been available in ancient times. Traces of tetracyclines have been detected in human skeletons recovered Sudanese Nubiansfrom the time of Roman occupation of Egypt despite the fact that this class of antibiotics was not technically "discovered" in the modern era until 1945. [@Bassett1980]Chemical analysis suggests they were ingesting the antibiotic tetracycline on a regular basis, likely from a special brew of beer [@nelson.etal_2010a].
-
-The benefits of using mould extracts were already well-documented by the herbalist and apothecary John Parkison in his book *Theatrum botanicum.* published in 1640.
+By 1640, the benefits of using mould extracts for treating infected would was described by the herbalist and apothecary John Parkison in his book *Theatrum botanicum.* However, what was missing is the concept of microorganisms as a cause of infection or the *Germ Theory of Disease,* which would take another XX years. Therefore,
 
 ::: column-margin
 ![John Parkinson (1567– 1650). The first person to document the use of mould extracts to treat infections. image source: Wikipedia.](images/Parkinson.png){#fig-Parkinson width="200"}
