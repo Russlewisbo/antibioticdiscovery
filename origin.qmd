@@ -6,11 +6,15 @@ bibliography: references.bib
 
 ## Antibiotic prehistory
 
-Many textbooks consider Paul Erlich's discovery of arsphenamine (Salvarsan) in 1909 followed by Alexander Fleming's discovery of penicillin in 1928 the beginning of the modern antibiotic era.
+The beginning of antibiotic discovery is historically linked to the early screening program of chemical dyes by Paul Erlichin hopes of discovering a "magic bullet" against bacteria. Erlich's screening program lead to the discovery of (Salvarsan) in 1909, which was followed by Alexander Fleming's discovery of penicillin isolated from the mold *Penicllim notum* in 1928. These discoveries define the two major branches of antibiotic discovery- *synthetic screening* and *natural product screening* that have dominated antibiotic discovery since.
 
-However, naturally-available treatments, including herbs, honey and mouldy bread had been used for centuries as topical antimicrobial therapies in ancient Egypt, China, Serbia, Greece and Rome.[@gould2016] Tetracycline antibiotics have even ben detected in human skeletons of the Sudanese Nubians from the time of Roman occupation, despite the fact that this class of antibiotics was not technically "discovered" until 1945. [@Bassett1980] A chemical analysis of the skeletons subsequently confirmed that the ancient Nubians were likely exposed to "therapeutic" antibiotic concentrations from routine ingestion of special beer they produced that contained fermentation byproducts of *Actinomycetes* spp. [@nelson.etal_2010a]
+However, naturally-available treatments, including herbs, honey and moldy bread had been used for centuries as topical antimicrobial therapies in ancient Egypt, Mesopotamia, China, Serbia, Greece and Rome.[@gould2016] Tetracycline antibiotics have been detected in skeletons of the Sudanese Nubians from the time of Roman occupation, despite the fact that this class of antibiotics was not technically "discovered" until 1945. [@Bassett1980] A chemical analysis of the skeletons in 2010 subsequently confirmed that the ancient Nubians were likely exposed to "therapeutic" antibiotic concentrations from routine ingestion of special beer they produced [@fig-beer] that contained fermentation byproducts of *Actinomycetes* spp. [@nelson.etal_2010a]
 
-By 1640, the benefits of using mould extracts for treating infected would was described by the herbalist and apothecary John Parkison in his book *Theatrum botanicum.* However, what was missing is the concept of microorganisms as a cause of infection or the *Germ Theory of Disease,* which would take another XX years. Therefore,
+::: column-margin
+![Modern rolling of cylinder seal (c. 2600 – 2350 BCE, Khafajeh, Iraq) showing the consumption of beer through long reed straws. Beer consumption was common in ancient Egypt, Mesopotamia and among the Hittites in today's Turkey (image Courtesy of the Oriental Institute of the University of Chicago)](images/beer.png){#fig-beer width="200"}
+:::
+
+By 1640, the benefits of using mould extracts for treating infected would was described by the herbalist and apothecary John Parkison in his book *Theatrum botanicum* [@fig-Parkinson]. However, what was missing is the concept of microorganisms as a cause of infection or the *Germ Theory of Disease,* which would take another 250 years. Therefore, therapeutic use of antibiotics, as considered in the modern sense, did not occur until after the discovery and description of bacteria.
 
 ::: column-margin
 ![John Parkinson (1567– 1650). The first person to document the use of mould extracts to treat infections. image source: Wikipedia.](images/Parkinson.png){#fig-Parkinson width="200"}
